@@ -1,0 +1,3 @@
+include ':anotherapp'
+include ':app'
+rootProject.name = "StartServiceFromAnotherApp"

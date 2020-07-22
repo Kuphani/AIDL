@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/BtnStartService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动Service" />
+
+    <Button
+        android:id="@+id/BtnStopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停止Service" />
+    <Button
+        android:id="@+id/BindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定Service" />
+
+    <Button
+        android:id="@+id/UnBindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除绑定Service" />
+
+    <EditText
+        android:id="@+id/EtIput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是另一个应用中的数据"/>
+
+    <Button
+        android:id="@+id/Btsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步数据" />
+
+</LinearLayout>
